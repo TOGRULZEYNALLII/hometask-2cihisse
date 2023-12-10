@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.img{
+    background-color: red;
+    border-radius: 200px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 36px;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    
+}
+.button{
+    margin-top: 30px;
+    color: white;
+    background-color: blue;
+    height: 40px;
+    border-radius: 5px;
+    width: 130px;
+    cursor: pointer;
+}
+.button-2{
+    color: rgb(25, 0, 255);
+    background: transparent;
+    height: 40px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 130px;
+
+}
+P{
+    margin-top: 30px;
+    width: 250px;
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+#main{
+    background-color: rgb(27, 53, 114);
+    height: 1000px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top:250px ;
+}
+.p{
+    text-align: center;
+    width: 400px;
+    margin-top:10px ;
+    margin-bottom: 30px;
+    color: white;
+}
+.button{
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: none;
+}
+.h1{
+    color: white;
+}
+.p2{
+    color: white;
+}
